@@ -18,6 +18,6 @@ Expect output to include something like: `* Running on http://127.0.0.1:5000`. O
 
 Here is the page:
 
-[!screenshot](screenshot.png)
+![screenshot](screenshot.PNG)
 
 I suggest reading the [Flask Quickstart](https://flask.palletsprojects.com/en/3.0.x/quickstart/) for an overview of `flask`.
