@@ -1,0 +1,11 @@
+Here is a list of items:
+<ul>
+    {% for item in results %}
+    <li>{{ item[1] }}</li>
+    {% endfor %}
+</ul>
+
+<form action="/add_data" method="post">
+    <label>Add item: </label><input type="text" name="description" />
+    <input type="submit" />
+</form>

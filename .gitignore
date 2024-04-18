@@ -1,0 +1,8 @@
+.venv
+KEVINALBS-README.md
+dist
+hello.spec
+build
+credentials.py
+*.pyc
+investigations/make-an-exe/hello
