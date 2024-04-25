@@ -19,7 +19,7 @@ def main():
     cursor = connection.cursor()
     cursor.execute("SELECT * FROM items")
     results = cursor.fetchall()
-    # `results` is a list of tuples. Example: [(1, "Test item"), (2, "Test item 2").
+    # `results` is a list of tuples. Example: [(1, "Test item"), (2, "Test item 2")]
     return render_template('hello.html', results=results)
 
 @app.route("/add_data", methods=["post"])
